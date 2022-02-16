@@ -29,4 +29,24 @@ package questions;
 
 public class QuestionTwo {
 
+    private static int NUM_MIN_CHARS = 6;
+
+    /**
+     * Calcula o número de caracteres que faltam para que uma senha seja considera segura.
+     * @param password senha.
+     * @return número de caracteres que faltam para a senha ser segura.
+     */
+    public static int getNumberOfCharsTalking(String password) {
+        int aux = NUM_MIN_CHARS - password.length();
+        return aux <= 0 ? 0: aux;
+    }
+
+    public static void main(String[] args) {
+        // Testando senha Ya3
+        System.out.println(getNumberOfCharsTalking("Ya3"));
+
+        // Testando senha Ya3Ya3
+        System.out.println(getNumberOfCharsTalking("Ya3Ya3"));
+    }
+
 }
