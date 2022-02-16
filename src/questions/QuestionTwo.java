@@ -41,12 +41,4 @@ public class QuestionTwo {
         return aux <= 0 ? 0: aux;
     }
 
-    public static void main(String[] args) {
-        // Testando senha Ya3
-        System.out.println(getNumberOfCharsTalking("Ya3"));
-
-        // Testando senha Ya3Ya3
-        System.out.println(getNumberOfCharsTalking("Ya3Ya3"));
-    }
-
 }

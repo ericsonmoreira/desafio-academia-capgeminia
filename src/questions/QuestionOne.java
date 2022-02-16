@@ -19,6 +19,11 @@ package questions;
 
 public class QuestionOne {
 
+    /**
+     * Gera a escada
+     * @param n
+     * @return
+     */
     public static String generateLadder(int n) {
         String result = "";
 
@@ -33,7 +38,4 @@ public class QuestionOne {
         return result;
     }
 
-    public static void main(String[] args) {
-        System.out.println(generateLadder(5));
-    }
 }
