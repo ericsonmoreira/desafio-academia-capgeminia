@@ -148,7 +148,7 @@ git clone https://github.com/ericsonmoreira/desafio-academia-capgeminia.git
 2. Baixe as dependências do projeto. 
 3. Execute os testes.
    1. Se vc estiver usando o IntelliJIDEA, cique com o botão esquerdo no projeto e selecione `Run All Tests`.
-
+   
 
 [1]: src/questions/QuestionOne.java
 [2]: src/questions/QuestionTwo.java
