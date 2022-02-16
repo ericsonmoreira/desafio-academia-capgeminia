@@ -74,9 +74,7 @@ satisfaz os seguintes critérios:
 - Contém no mínimo 1 letra em maiúsculo. 
 - Contém no mínimo 1 caractere especial. Os caracteres especiais são: __!@#$%^&*()-+__.
 
-### [QuestionThree][3]
-
-Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar 
+Débora digitou uma string aleatória no campo de senha, porém ela não tem certeza se é uma senha forte. Para ajudar
 Débora, construa um algoritmo que informe qual é o número mínimo de caracteres que devem ser adicionados para uma string
 qualquer ser considerada segura.
 
@@ -90,6 +88,23 @@ qualquer ser considerada segura.
 
 Ela pode tornar a senha segura adicionando 3 caracteres, por exemplo, &ab, transformando a senha em Ya3&ab. 2 caracteres
 não são suficientes visto que a senha precisa ter um tamanho mínimo de 6 caracteres.
+
+### [QuestionThree][3]
+
+Duas palavras podem ser consideradas anagramas de si mesmas se as letras de uma palavra podem ser realocadas para 
+formar a outra palavra. Dada uma string qualquer, desenvolva um algoritmo que encontre o número de pares de substrings 
+que são anagramas.
+
+#### Exemplo:
+
+#### Entrada: ovo
+
+#### Saída: 3
+
+#### Explicação:
+
+A lista de todos os anagramas pares são: `[o, o]`, `[ov, vo]` que estão nas posições `[[0, 2], [0, 1], [1, 2]]` 
+respectivamente.
 
 ### [QuestionOneTest][4]
 
