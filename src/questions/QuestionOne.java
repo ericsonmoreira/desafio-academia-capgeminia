@@ -16,13 +16,12 @@ package questions;
  *  *****
  * ******
  */
-
 public class QuestionOne {
 
     /**
-     * Gera a escada
-     * @param n
-     * @return
+     * Gera a escada de "*".
+     * @param n número de linhas da escada.
+     * @return @{@link String} que representa a escada.
      */
     public static String generateLadder(int n) {
         String result = "";

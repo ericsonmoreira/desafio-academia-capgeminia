@@ -35,8 +35,13 @@ import java.util.concurrent.atomic.AtomicInteger;
  * A lista de todos os anagramas pares são: [i, i], [q, q] e [ifa, fai] que estão nas posições [[0, 3]], [[8, 9]] e
  * [[0, 1, 2], [1, 2, 3]].
  */
-
 public class QuestionThree {
+
+    /**
+     * Retorna o número de anagramas contido na palavra.
+     * @param word @{@link String} palavra.
+     * @return int número de anagramas.
+     */
     public static int getNumberOfWordsAnagrams(String word) {
         int anagrams = 0;
 
@@ -57,6 +62,12 @@ public class QuestionThree {
         return anagrams;
     }
 
+    /**
+     * Compara suas palavras e verifica são anagramas entre si.
+     * @param a @{@link String} primeira palavra.
+     * @param b @{@link String} segunda palavra.
+     * @return boolean true se as palavras são anagramas, caso contrário, false.
+     */
     public static boolean compateWordsAnagrams(String a, String b) {
         char aChars[] = a.toCharArray();
         char bChars[] = b.toCharArray();
